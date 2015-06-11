@@ -61,6 +61,7 @@ $route['(:any)'] = 'pages/view/$1';
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
+//$route['rss/(:any)'] = 'rss/index/$1';
 $route['rss'] = 'rss';
 $route['customer'] = 'customer';
 $route['customers'] = 'customer';

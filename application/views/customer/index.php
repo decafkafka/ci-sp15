@@ -20,7 +20,28 @@
 $this->load->view($this->config->item('theme') . 'header');
 ?>
 <h2><?php echo $title ?></h2>
-<?php
 
+
+<?php foreach ($query->result() as $customer): ?>
+
+<?php
+    echo $customer->FirstName . "<br />";
+?>
+
+<?php endforeach ?>
+
+
+
+<?php
 $this->load->view($this->config->item('theme') . 'footer');
 ?>
+
+
+
+
+
+
+
+
+
+
